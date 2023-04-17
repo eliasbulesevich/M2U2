@@ -1,0 +1,29 @@
+.contenedor{
+	height: 150px;
+    border: solid 2px;
+	display: flex;
+    justify-content: space-between;
+}
+
+
+.item{
+	font-size: 25px;
+    color: white;
+	width: 150px;
+	height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:first-child{
+    background-color: red;
+}
+
+.item:nth-child(2){
+    background-color: blue;
+}
+
+.item:last-child{
+    background-color: green;
+}

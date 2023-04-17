@@ -1,0 +1,33 @@
+.contenedor{
+	height: 450px;
+    width: 450px;
+    border: solid 2px;
+	display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+
+.item{
+	font-size: 25px;
+    color: white;
+	width: 150px;
+	height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:first-child{
+    background-color: red;
+}
+
+.item:nth-child(2){
+    background-color: blue;
+}
+
+.item:last-child{
+    background-color: green;
+}
